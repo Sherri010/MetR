@@ -102,8 +102,8 @@ text-align: center;}
 .imgteam1 {width: 25%;text-align: center;}
 
 #grad1 {
-  background-image: url(img/ser2.png);
-
+ background-image: url(../img/ser2.png);
+    background-size: cover;
 	text-align: center;
   min-height:800px;
 }
@@ -117,8 +117,7 @@ font-size: 50px;
 color:#006666;
 text-align: center;
 margin-top:10%;
-
-
+background: transparent;
 }
 #colab {margin:100px auto;text-align: center;}
 #colabs{margin:0; padding:0; list-style: none;}
