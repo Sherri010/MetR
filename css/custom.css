@@ -2,6 +2,7 @@ body {margin:auto;
       position: relative;
       font-size:16px;
       font-family: 'Open Sans', sans-serif;
+
     }
 
 .no-js #loader { display: none;  }
@@ -101,21 +102,22 @@ text-align: center;}
 .imgteam1 {width: 25%;text-align: center;}
 
 #grad1 {
+  background-image: url(img/ser2.png);
+
 	text-align: center;
-height:700px;
+  min-height:800px;
 }
 
 
 #close:hover {cursor: pointer;display:none; }
 .glyphicon-share-alt {color:#00264d;display:none;}
 .phrase {
-
-  padding: 10px 10px;
+font-family: 'Shadows Into Light', cursive;
 font-size: 50px;
 color:#006666;
 text-align: center;
 margin-top:10%;
-min-height: 850px;
+
 
 }
 #colab {margin:100px auto;text-align: center;}
