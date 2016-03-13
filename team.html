@@ -44,10 +44,11 @@
   			       <span class="caret"></span></a>
   	           <ul class="dropdown-menu" role="menu">
                     <li><a  href="science.html">Science</a></li>
-  			            <li><a  href="index.html#team">Our Team</a></li>
-  	           </ul>
+  			            <li><a  href="team.html">Our Team</a></li>
+                    <li><a  href="index.html#colab">Our Collaborators</a></li>
+  	          </ul>
               </li>
-  	          <li><a  href="#service">Services</a></li>
+  	          <li><a  href="services.html">Services</a></li>
               <li><a   href="contact.php">Contact Us</a></li>
         </ul>
 
@@ -96,7 +97,7 @@
 
 
   <div  class="col-md-offset-3 col-md-6 pbio" >
-   <img   class="img-circle light lightteam" id="imgteam" alt="Dr.Asadi-Porter" src="img/pic1.jpg" >
+   <img   class="img-circle light lightteam fariba" id="imgteam" alt="Dr.Asadi-Porter" src="img/pic1.jpg" >
       <h3>Fariba Assadi-Porter, PhD</h3>
      	<h4>Founder &amp; CEO  <a target="_blank" href="https://www.linkedin.com/pub/fariba-assadi-porter/0/5ab/b74" style="text-decoration:none;"><img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_in_20x15.png" alt="View Shahrzad Aminshahidy's LinkedIn profile" style="vertical-align:middle;width:20px;height:15px;"></a></h4>
     <div class="item">
@@ -114,7 +115,7 @@
 
   <div class="row">
     <div   class="col-md-offset-1 col-md-5 pbio">
-      <img   class="img-circle light lightteam imgteam1"  alt="Dr.Ebru Selen-Alpergin"  src="img/ebru.jpg" >
+      <img   class="img-circle light lightteam imgteam1 ebru"  alt="Dr.Ebru Selen-Alpergin"  src="img/ebru.jpg" >
       <h3 style="padding-top:10px;">Ebru Selin Selen-Alpergin, PhD</h3>
       <h4>Co-Founder &amp; CSO <a target="_blank" href="https://www.linkedin.com/pub/ebru-selin-selen-phd/40/249/992" style="text-decoration:none;"><img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_in_20x15.png" alt="View Shahrzad Aminshahidy's LinkedIn profile" style="vertical-align:middle;width:20px;height:15px;"></a></h4>
        <p class="item">Ebru Selen-Alpergin initiated her graduate studies in Comparative Biomedical Sciences at the University of Wisconsin-Madison. During MSctraining,
@@ -132,8 +133,8 @@
     </div>
 
   <div class="col-md-5 pbio">
-   <img   class="img-circle light lightteam imgteam1"  alt="Sherri Aminshahidy" src="img/sherri1.jpg"  >
-   <h3>Sherri Aminshahidy, Msc</h3>
+   <img   class="img-circle light lightteam imgteam1 sherri"  alt="Sherri Aminshahidy" src="img/sherri1.jpg"  >
+   <h3 >Sherri Aminshahidy, Msc</h3>
    <h4> Developer <a target="_blank" href="https://www.linkedin.com/pub/shahrzad-aminshahidy/73/bab/a2b" style="text-decoration:none;"><img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_in_20x15.png" alt="View Shahrzad Aminshahidy's LinkedIn profile" style="vertical-align:middle;width:20px;height:15px;"></a></h4>
     <p  class="item">
     Shahrzad Aminshahidy Studied Computer Engineering and IT and She is focusing on web and application development.
@@ -143,16 +144,6 @@
   </div> <!--row -->
   </div> <!-- people -->
 </div>
-
-
-
-
-
-
-
-
-
-
 
 
   <footer   id="copyright">
@@ -186,9 +177,49 @@
   <script>
 $(document).ready(function(){
   setTimeout(function(){
-  $('.lightteam').fadeIn('slow', function() {
+  $('.fariba').fadeIn('slow', function() {
   $(this).fadeTo("slow", 1);
 });}, 500);
+setTimeout(function(){
+$('.ebru').fadeIn('slow', function() {
+$(this).fadeTo("slow", 1);
+});}, 1000);
+setTimeout(function(){
+$('.sherri').fadeIn('slow', function() {
+$(this).fadeTo("slow", 1);
+});}, 1500);
+
+
+
+
+
+$(function(){
+$('.item').each(function(event){
+  var max_length = 188;
+  if($(this).html().length > max_length){
+    var short_content 	= $(this).html().substr(0,max_length);
+    var long_content	= $(this).html().substr(max_length);
+    $(this).html(short_content+
+           '<a href="#" class="read_more">  <span  style="color:#666666;"class="glyphicon glyphicon-menu-down"></span></a>'+
+           '<span class="more_text" style="display:none;">'+long_content+'</span>');
+      $(this).find('a.read_more').click(function(event){
+      event.preventDefault();
+      $(this).hide();
+      $(this).parents('.item').find('.more_text').show();
+
+    });
+  }
+});
+});
+
+
+
+
+
+
+
+
+
     });
   </script>
   </footer>

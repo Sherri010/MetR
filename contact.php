@@ -51,7 +51,8 @@
              <span class="caret"></span></a>
                   <ul class="dropdown-menu" role="menu">
                   <li><a  href="science.html">Science</a></li>
-                  <li><a  href="index.html#team">Our Team</a></li>
+                  <li><a  href="team.html">Our Team</a></li>
+                 <li><a  href="index.html#colab">Our collaborators</a></li>
                   </ul>
             </li>
             <li><a  href="services.html">Services</a></li>
@@ -159,7 +160,7 @@ function test_input($data) {
 
 <div id="contact" class="container cform">
 
-    <h2 style="margin:60px 0px  20px 0px;">We are here to help!</h2>
+<h1 class="scittl1" > We are here to help! </h1>
     <p align="left">You can reach us by sending an email to <strong> info@metresponse.net </strong> </p>
 	<p>or fill out the form below and we will get back to you. Please let us know how we can help you in the comment section. Thanks!<br/></p>
 
@@ -208,6 +209,7 @@ echo $result;
  <a href="index.html">Home</a> <span>-</span>
  <a href="services.html">Services</a><span>-</span>
  <a href="science.html">Science</a>
+
  </span> <br />
  <span >
  <a  class="soc  fa fa-linkedin" href="https://www.linkedin.com/company/metresponse-llc" style="font-size:20px;padding-top:5px; " target="blanck"> </a>
@@ -226,7 +228,7 @@ echo $result;
 
 </div>
 </div>
-<script src="js/time.js"></script>
+
 </footer>
 <script src="js/time.js"></script>
 

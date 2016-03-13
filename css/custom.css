@@ -118,8 +118,11 @@ margin-top:10%;
 min-height: 850px;
 
 }
-
-
+#colab {margin:100px auto;text-align: center;}
+#colabs{margin:0; padding:0; list-style: none;}
+#colabs li {width:45%;  margin: 2.5%; float:left;}
+#ug {max-width:100%;}
+#uw {max-width:100%;}
  #cir-intro { opacity:0;
               filter:alpha(opacity=0);
               text-align: center;
