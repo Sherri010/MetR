@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Metresponse - Dynamic Solutions to Omics </title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" >
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<link rel="icon"  href="img/iconmet.png">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/custom.css">
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,800,300,600' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-73334339-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</head>
+<body>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html"><img src="img/Met-Logo.jpg"  alt="company logo" class="line" id="iconheader" ></a>
+      </div>
+
+       <div class="collapse navbar-collapse" id="myNavbar">
+  	    <ul   class="nav navbar-nav navbar-right">
+               <li ><a  href="index.html">Home</a></li>
+  		      	 <li><a href="#" class="dropdown-toggle" data-toggle="dropdown"> Metresponse
+  			       <span class="caret"></span></a>
+  	           <ul class="dropdown-menu" role="menu">
+                    <li><a  href="science.html">Science</a></li>
+  			            <li><a  href="index.html#team">Our Team</a></li>
+  	           </ul>
+              </li>
+  	          <li><a  href="#service">Services</a></li>
+              <li><a   href="contact.php">Contact Us</a></li>
+        </ul>
+
+
+  </div>
+  </div>
+  </nav>
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+
+  $(function(){
+  	$('.item').each(function(event){
+  		var max_length = 188;
+  		if($(this).html().length > max_length){
+  			var short_content 	= $(this).html().substr(0,max_length);
+  			var long_content	= $(this).html().substr(max_length);
+  			$(this).html(short_content+
+  						 '<a href="#" class="read_more">  <span  style="color:#666666;"class="glyphicon glyphicon-menu-down"></span></a>'+
+  						 '<span class="more_text" style="display:none;">'+long_content+'</span>');
+  			$(this).find('a.read_more').click(function(event){
+  				event.preventDefault();
+  				$(this).hide();
+  				$(this).parents('.item').find('.more_text').show();
+
+  			});
+  		}
+  	});
+  });
+
+  </script>
+
+  <div id="team" class="container-fluid">
+    	<div   id="people" class="container" style="width:90%" >
+  	<h1   style="text-align:center;padding-bottom:30px;color:#003333;">Meet the Team Members</h1>
+
+
+
+  <div  class="col-md-offset-3 col-md-6 pbio" >
+   <img   class="img-circle light lightteam" id="imgteam" alt="Dr.Asadi-Porter" src="img/pic1.jpg" >
+      <h3>Fariba Assadi-Porter, PhD</h3>
+     	<h4>Founder &amp; CEO  <a target="_blank" href="https://www.linkedin.com/pub/fariba-assadi-porter/0/5ab/b74" style="text-decoration:none;"><img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_in_20x15.png" alt="View Shahrzad Aminshahidy's LinkedIn profile" style="vertical-align:middle;width:20px;height:15px;"></a></h4>
+    <div class="item">
+           Dr. Assadi-Porter is an expert Chemist and Biochemist with over 20 years of training in wide range of metabolism studies, biophysical
+        	techniques (NMR/MS, imaging) and breath analysis.Dr. Assadi-Porter obtained her undergraduate degree in chemistry at UW-Madison, and Ph.D. from Biomolecular Chemistry at
+        	UW-Madison Medical School. She was Senior Scientist at the Department of Biochemistry and NMR National Facility at Madison (NMRFAM) Wisconsin, and a Principal
+        	Investigator on several large NIH funded and private grants. Later, she was Research Associate Professor at Department of Nutritional Sciences and Obesity Research
+        	Cluster at Texas Tech University. She won prizes for transdisciplinary Research and Mentoring Junior Faculty research and grant projects. She has expertise
+        	in multidisciplinary collaborations in metabolism(i.e. metablomics, transciptomics and lipidomics), bioinformatics and protein chemistry. She has many publications in isotope labeling platforms, protein-protein and protein-ligand
+        	interactions, metabolomics, and pathway analysis.
+      </div>
+   </div>
+
+
+
+  <div class="row">
+    <div   class="col-md-offset-1 col-md-5 pbio">
+      <img   class="img-circle light lightteam imgteam1"  alt="Dr.Ebru Selen-Alpergin"  src="img/ebru.jpg" >
+      <h3 style="padding-top:10px;">Ebru Selin Selen-Alpergin, PhD</h3>
+      <h4>Co-Founder &amp; CSO <a target="_blank" href="https://www.linkedin.com/pub/ebru-selin-selen-phd/40/249/992" style="text-decoration:none;"><img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_in_20x15.png" alt="View Shahrzad Aminshahidy's LinkedIn profile" style="vertical-align:middle;width:20px;height:15px;"></a></h4>
+       <p class="item">Ebru Selen-Alpergin initiated her graduate studies in Comparative Biomedical Sciences at the University of Wisconsin-Madison. During MSctraining,
+       she studied the metabolic effect and gene-metabolome interactions in the PCOS-like mouse model using treatment regime with the 3-Iodothronamine, a natural throid
+       hormone analog She carried out her PhD work in the Department of Zoology at the University of Wisconsin-Madison, where she completed her graduate work under the
+       mentorship of Dr. Assadi-Porter. The main focus of her PhD projectwas the molecular understanding of the progression of PCOS by investigating dynamics of bimolecular
+       changes in a tissue specific manner in the mouse model. She identified profound changes in the metabolism, metabolic flow to gene network. Metabolomics, transcriptomics,
+       and statistical data analysis were three major analytical techniques that she mastered during her graduate studies. Her enthusiasm in applying various algorithms
+       (PCA, PLSDA, clustering and other statistical analysis) for data analysis in metabolomics and linking them to gene-network enabled her to participate in many
+       transdisciplinary collaborations from campus-wide to international studies. She developed deep understanding of experimental design for in vitro (normal cells,
+       stem cells to cancer cells) and in vivo models (whole animal levels from rodents to humans). Because of her background and training, she is able to integrate complex
+       -omics data into functional information. She links art to science by visually articulating the big scientific findings with her original artworks that can be used in
+       scientific publications and presentations.
+      </p>
+    </div>
+
+  <div class="col-md-5 pbio">
+   <img   class="img-circle light lightteam imgteam1"  alt="Sherri Aminshahidy" src="img/sherri1.jpg"  >
+   <h3>Sherri Aminshahidy, Msc</h3>
+   <h4> Developer <a target="_blank" href="https://www.linkedin.com/pub/shahrzad-aminshahidy/73/bab/a2b" style="text-decoration:none;"><img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_in_20x15.png" alt="View Shahrzad Aminshahidy's LinkedIn profile" style="vertical-align:middle;width:20px;height:15px;"></a></h4>
+    <p  class="item">
+    Shahrzad Aminshahidy Studied Computer Engineering and IT and She is focusing on web and application development.
+    </p>
+  </div>
+
+  </div> <!--row -->
+  </div> <!-- people -->
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  <footer   id="copyright">
+
+  <div class="row">
+  <div class="col-md-4">
+  <div  class="footerlinks">
+    <span style="color:#EBF0F5;">
+   <a href="index.html">Home</a> <span>-</span>
+   <a href="services.html">Services</a><span>-</span>
+   <a href="science.html">Science</a>
+   </span> <br />
+   <span  >
+   <a  class="soc  fa fa-linkedin" href="https://www.linkedin.com/company/metresponse-llc" style="font-size:20px;padding-top:5px; " target="blanck"> </a>
+   <a  class="soc" href="contact.php" ><span class="fa fa-envelope-o" style="font-size:20px; padding-top:10px;"></span> </a><br/>
+   </span>
+   </div>
+   </div>
+  <div class="col-md-4">
+  <p  class="women">*Women Owned Consulting Services*</p>
+  <div>Copyright &copy; 2013 - <span id="timestamp"></span> <br /> MetResponse LLC - All rights reserved.</div>
+  </div>
+
+  <div class="col-md-4">
+
+  <img  src="img/Met-Logo1.png" alt="company logo" style="width:180px;height:150px;">
+
+  </div>
+  </div>
+  <script src="js/time.js"></script>
+  <script>
+$(document).ready(function(){
+  setTimeout(function(){
+  $('.lightteam').fadeIn('slow', function() {
+  $(this).fadeTo("slow", 1);
+});}, 500);
+    });
+  </script>
+  </footer>
+
+
+  </body>
+  </html>

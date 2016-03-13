@@ -1,0 +1,186 @@
+body {margin:auto;
+      position: relative;
+      font-size:16px;
+      font-family: 'Open Sans', sans-serif;
+    }
+
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(../img/1ball.png) center no-repeat #fff;
+
+}
+.wheel { opacity:0;filter:alpha(opacity=0);}
+.light{ opacity:0;filter:alpha(opacity=0);}
+
+.line {width:70%;}
+.navbar-default  {
+
+  background-color: #FFF;
+  border-color: #FFF;
+  margin-bottom:60px;
+  text-align: right;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #191970; font-size:17px;
+  letter-spacing: 2px;
+  margin-bottom:10px;
+
+}
+.navbar-default > li > a:hover {color: #483D8B  ;}
+
+#iconheader {float:left;width:50%;}
+
+#myNavbar {background-color:#FFF;}
+
+.stage { color:#853385;  }
+.bgclr {  background-color : #F6F6F6;
+       color: #1A1A4C; }
+.light {box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.0), 0 2px 20px 0 rgba(0, 0, 0, 0.5);}
+
+
+
+#offer {
+text-align: left;
+box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.0), 0 2px 20px 0 rgba(0, 0, 0, 0.5);
+background-color:#f0f0f5;
+padding-top:100px;
+padding-bottom:180px;}
+.textintro {padding-top:60px;text-align: center;}
+ #startwu {
+		      padding-bottom:150px;
+		      padding-top:150px;
+		      text-align:center;
+		  }
+
+.hswu {padding-top:20px;text-align: center;}
+#whymet {
+
+  box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.0), 0 2px 20px 0 rgba(0, 0, 0, 0.5);
+  background-color:#f0f0f5;
+  padding-bottom:200px;
+	padding-top:200px;
+		  }
+
+
+
+#imgsec2{ width:138px; height:133px;}
+.col-sm-4{text-align: center;}
+#aboutppl{text-align:justify;}
+#Qu{  text-align: justify; width:90%;}
+#intro {margin-bottom:40px; }
+#servlink {color: #006B6B;font-size:19px;font-family: 'Georgia',Georgia,serif; }
+#title2 {color : #004747;
+        font-family: "Georgia",Georgia,serif;
+		margin-bottom:40px;}
+
+#copyright { position:static; left:0px; top:0px;
+            width:100%;
+            text-align: center;
+            background-color:#1a334c;
+		 	color: #FFFFFF;
+
+			 padding:30px;
+
+			}
+#eadr {
+color:#008B8B;
+}
+.pbio {text-align: center; padding:20px;}
+.item {text-align: left;}
+#imgteam {
+width: 20%;
+text-align: center;}
+.imgteam1 {width: 25%;text-align: center;}
+
+#grad1 {
+	text-align: center;
+height:700px;
+}
+
+
+#close:hover {cursor: pointer;display:none; }
+.glyphicon-share-alt {color:#00264d;display:none;}
+.phrase {
+
+  padding: 10px 10px;
+font-size: 50px;
+color:#006666;
+text-align: center;
+margin-top:10%;
+min-height: 850px;
+
+}
+
+
+ #cir-intro { opacity:0;
+              filter:alpha(opacity=0);
+              text-align: center;
+              padding:10px;
+			  }
+.findout {color:#006666; }
+.serv {text-align:left; font-size: 30px; margin: 50px;margin-top:20px;}
+.color { color: #003366  ; }
+
+#link{ text-align:right; }
+.btn-default {
+    background:#E8F6F6;
+
+}
+.title {
+ color:  #004C4C; text-align: center;}
+.servs {margin:40px auto;}
+
+a{color:#000;}
+ #team {
+padding-top: 70px;
+}
+.ttlserv  {color: #264d73; font-weight:700;}
+.ttlserv2 {color:#3973ac;font-weight: 700;}
+#people > h3 {color:#5C5C3D ;  }
+#people > h4 {color:#474724 ;}
+
+
+#content { font-size:17px;  padding-left:40px; min-height:700px;margin-top:50px;}
+.wwd {padding:5px 0px 5px 20px;text-align: left;}
+.numser {color:#003366; font-size:20px;   }
+#note { color:#003366;padding-left:40px; }
+#contact h2  { color: #29527A;}
+#contact p  { margin:30px; text-align:center;}
+
+.footerlinks  a {color:#FFF; font-size:18px; letter-spacing: 4px; margin:40px 10px 10px 10px; }
+.footerlinks  a:hover {text-decoration:none;color: #b3ccff;}
+.women {color: #CCFFFF; margin-top:65px;}
+.scittl {font-size:50px;padding-bottom:30px;text-align:center;}
+.scittl1 {color: #003566;font-size:50px;padding-bottom:30px;text-align:center; margin:60px 200px;}
+.pubs {min-height:400px; }
+.pprttl {color:#005252;}
+.pprathr {color:#005252;}
+.pprlink {color:#006699; margin-top:30px;}
+.time {color:#990000;}
+#menu {
+background-color:#4D9494 ;
+  position: fixed;
+  right: 0;
+  top: 100%;
+  width: 5em;
+  margin-top: -2.5em;
+  text-align:center;
+border-radius:3px;
+z-index:1;
+}
+#menu > a { color:#FFF;}
+.pprnames {margin-top:30px;margin-bottom:30px; }
+.journal {color:#007A7A;}
+.pprnames> a {color:#006666;}
+.panel-default { margin-bottom:50px;
+  box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.0), 0 2px 20px 0 rgba(0, 0, 0, 0.5);}
+.servpan{box-shadow: none;margin:50px 10px 2px 2px;}
+.form-control {padding:5px ;margin:5px;}
