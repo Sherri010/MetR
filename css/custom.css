@@ -223,7 +223,7 @@ background-size: cover;box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.0), 0 2px 20px 0
 .lab {background:linear-gradient( rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url('../img/lab2.jpg') no-repeat;
 background-size: cover;box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.0), 0 2px 20px 0 rgba(0, 0, 0, 0.5);
        min-height:800px;  }
-.scittl1srv {color:#fff;margin-top:280px;}
+.scittl1srv {color:#fff;margin-top:220px;}
 .scittl1 {color:#fff;}
 .pubs > p {padding:40px;font-size:1.2em;}
 .phrase {font-size: 46px;}
