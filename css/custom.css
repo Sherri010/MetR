@@ -154,7 +154,7 @@ a.findout:hover { text-decoration: none; color:#FFF; background-color:#3973ac; b
 
 
 #content { font-size:17px;  padding-left:40px; min-height:700px;margin-top:50px;}
-.wwd {padding:25px 0px 5px 20px;text-align: left;}
+.wwd {padding:5px 0px 5px 20px;text-align: left;}
 .numser {color:#003366; font-size:20px;   }
 #note { color:#003366;padding-left:40px; }
 #contact {min-height:800px;}
@@ -168,7 +168,7 @@ a.findout:hover { text-decoration: none; color:#FFF; background-color:#3973ac; b
 .scittl1 {color: #003566;font-size:50px;padding-bottom:30px;text-align:center; margin:60px auto; font-family: georgia;}
 .scittl1c {color: #003566;font-size:36px;text-align:center;font-family: georgia;padding:20px; }
 .scittl1srv {font-size:36px;font-family: georgia;color: #003566;padding-bottom:30px;text-align:center; margin:60px auto; font-family: georgia; }
-.pubs { min-height:400px;max-width:750px;margin:20px auto;padding:10 auto;}
+.pubs { min-height:400px;max-width:65%;margin:20px auto;padding:10 auto;}
 .pprttl {color:#005252;}
 .pprathr {color:#005252;}
 .pprlink {color:#006699; margin-top:30px;}
@@ -180,6 +180,7 @@ background-color:#4D9494 ;
   top: 100%;
   width: 5em;
   margin-top: -2.5em;
+
   text-align:center;
 border-radius:3px;
 z-index:1;
@@ -188,7 +189,7 @@ z-index:1;
 .pprnames {margin-top:10px;margin-bottom:30px; }
 .journal {color:#007A7A;}
 .pprnames> a {color:#006666;}
-.panel-default { margin-bottom:50px;
+.panel-default { margin-bottom:50px;background-color:#FFF; min-height: 150px;
   }
 .panel-default:hover {box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.0), 0 2px 20px 0 rgba(0, 0, 0, 0.5); cursor: pointer;}
 .servpan{box-shadow: none;margin:50px 10px 2px 2px;}
@@ -209,14 +210,14 @@ p.n_note{margin:auto;padding:20px;}
 
 #error_msg {color:#99004d;}
 #confirmed {color:#004d00;}
-.ttlserv {color:navy;padding:45px 15px;;font-size:20px;text-align:left;border-top: 1px solid navy;}
+.ttlserv {color:navy;padding:45px 15px;;font-size:20px;text-align:left;}
 .ttlserv2{padding:35px 15px;}
 .ttl_back {margin-left: 30px;color:navy; }
 
 .colab_right {margin-bottom:80px;}
 .foot_main {color:#EBF0F5;}
 @media screen and (min-width: 997px){
-.sience-bnr {background:linear-gradient( rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url('../img/homehead.jpg') no-repeat;
+.sience-bnr {background:linear-gradient( rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url('../img/labw.jpg') no-repeat;
 background-size: cover;box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.0), 0 2px 20px 0 rgba(0, 0, 0, 0.5);
        min-height:800px;color:#fff;width:100%; }
 .lab {background:linear-gradient( rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url('../img/lab2.jpg') no-repeat;
@@ -224,6 +225,7 @@ background-size: cover;box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.0), 0 2px 20px 0
        min-height:800px;  }
 .scittl1srv {color:#fff;margin-top:280px;}
 .scittl1 {color:#fff;}
+.pubs > p {padding:40px;font-size:1.2em;}
 .phrase {font-size: 46px;}
   #offer {
   box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.0), 0 2px 20px 0 rgba(0, 0, 0, 0.5);
@@ -249,6 +251,7 @@ background-size: cover;box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.0), 0 2px 20px 0
 .ttl_back {margin:10px auto;width:150px;height:150px;border-radius:50%;
   background-color:#000066;color:white;  box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.0), 0 2px 20px 0 rgba(0, 0, 0, 0.5);}
 div.ttl_back:hover {background:#336699; cursor:default;}
+#p2{margin-top:80px;}
 }
 @media screen and (min-width: 497px){
   #whymet {
