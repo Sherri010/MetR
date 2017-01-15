@@ -19,8 +19,8 @@ body {margin:auto;
 
 }
 a{color:#000;}
-.wheel { opacity:0;filter:alpha(opacity=0);}
-.light1 { opacity:0;filter:alpha(opacity=0);}
+.wheel { opacity:0; filter:alpha(opacity=0);}
+.light1 { opacity:0 ;filter:alpha(opacity=0);}
 
 .line {width:70%;}
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {border:transparent;;}
@@ -104,10 +104,10 @@ text-align: center;}
 .imgteam1 {width: 25%;text-align: center;}
 
 #grad1 {
- background-image: url(../img/ser2.png);
+    background-image: url(../img/ser2.png);
     background-size: cover;
-	text-align: center;
-  min-height:800px;
+  	text-align: center;
+    min-height:800px;
 }
 #met_serv {width:95%;padding-top:80px;}
 .why {margin-top:10%;}
@@ -126,8 +126,10 @@ background: transparent;
 #colab {margin:100px auto;text-align: center;}
 #colabs{margin:0; padding:0; list-style: none;}
 #colabs li {width:45%;  margin: 2.5%; float:left;}
-#ug {max-width:100%;}
+#ug {max-width:100%; padding-top: 20px;}
 #uw {max-width:100%;}
+#usda{padding-top:100px;}
+
 #cir-intro { opacity:0;
               filter:alpha(opacity=0);
               text-align: center;
@@ -218,8 +220,8 @@ p.n_note{margin:auto;padding:20px;}
 .foot_main {color:#EBF0F5;}
 @media screen and (min-width: 997px){
 .sience-bnr {background:linear-gradient( rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url('../img/labw.jpg') no-repeat;
-background-size: cover;box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.0), 0 2px 20px 0 rgba(0, 0, 0, 0.5);
-       min-height:800px;color:#fff;width:100%; }
+             background-size: cover;box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.0), 0 2px 20px 0 rgba(0, 0, 0, 0.5);
+             min-height:800px;color:#fff;width:100%; margin-bottom:100px; }
 .lab {background:linear-gradient( rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url('../img/lab2.jpg') no-repeat;
 background-size: cover;box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.0), 0 2px 20px 0 rgba(0, 0, 0, 0.5);
        min-height:800px;  }
@@ -251,8 +253,7 @@ background-size: cover;box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.0), 0 2px 20px 0
 .ttl_back {margin:10px auto;width:150px;height:150px;border-radius:50%;
   background-color:#000066;color:white;  box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.0), 0 2px 20px 0 rgba(0, 0, 0, 0.5);}
 div.ttl_back:hover {background:#336699; cursor:default;}
-#p2{margin-top:80px;}
-}
+
 @media screen and (min-width: 497px){
   #whymet {
 
